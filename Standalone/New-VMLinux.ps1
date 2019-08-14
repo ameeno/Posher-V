@@ -63,7 +63,7 @@ param
     [Parameter()][String]$VHDXName = '',
     [Parameter()][String]$VMStoragePath = '',
     [Parameter()][String]$VHDStoragePath = '',
-    [Parameter(ParameterSetName='DVD')][String]$InstallISOPath = '',
+    [Parameter()][String]$InstallISOPath = '',
     [Parameter(ParameterSetName='NoDVD')][Switch]$NoDVD,
     [Parameter()][Switch]$Cluster,
     [Parameter()][String]$VMSwitchName = '',
